@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+ul{
+    list-style: none;
+    
+}
+
+a{
+    text-decoration: none;
+    color: grey;
+
+}
+section{
+    width: 100%;
+    height: 75vh;
+   
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: white;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    padding: 0px 5%;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li a{
+    margin: 20px;
+    color:black;
+    font-size: 18px;
+   
+}
+.ticker{
+    font-family: 'Franklin Gothic Medium';
+    color: black;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.menu{
+   color:#2d2a2a ;
